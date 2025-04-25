@@ -1,0 +1,14 @@
+/Users/Bahadr/Desktop/C#_OOP_PROJECT/Project/bin/Debug/net8.0/Project
+/Users/Bahadr/Desktop/C#_OOP_PROJECT/Project/bin/Debug/net8.0/Project.deps.json
+/Users/Bahadr/Desktop/C#_OOP_PROJECT/Project/bin/Debug/net8.0/Project.runtimeconfig.json
+/Users/Bahadr/Desktop/C#_OOP_PROJECT/Project/bin/Debug/net8.0/Project.dll
+/Users/Bahadr/Desktop/C#_OOP_PROJECT/Project/bin/Debug/net8.0/Project.pdb
+/Users/Bahadr/Desktop/C#_OOP_PROJECT/Project/obj/Debug/net8.0/Project.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/C#_OOP_PROJECT/Project/obj/Debug/net8.0/Project.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/C#_OOP_PROJECT/Project/obj/Debug/net8.0/Project.AssemblyInfo.cs
+/Users/Bahadr/Desktop/C#_OOP_PROJECT/Project/obj/Debug/net8.0/Project.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/C#_OOP_PROJECT/Project/obj/Debug/net8.0/Project.dll
+/Users/Bahadr/Desktop/C#_OOP_PROJECT/Project/obj/Debug/net8.0/refint/Project.dll
+/Users/Bahadr/Desktop/C#_OOP_PROJECT/Project/obj/Debug/net8.0/Project.pdb
+/Users/Bahadr/Desktop/C#_OOP_PROJECT/Project/obj/Debug/net8.0/Project.genruntimeconfig.cache
+/Users/Bahadr/Desktop/C#_OOP_PROJECT/Project/obj/Debug/net8.0/ref/Project.dll
