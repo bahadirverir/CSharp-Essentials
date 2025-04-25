@@ -27,7 +27,7 @@ Projede aşağıdaki **temel C# konuları** ele alınmaktadır:
 
 ### 1️⃣ Depoyu Klonlayın
 
-Projeyi yerel makinenize klonlamak için terminalde şu komutu çalıştırın:
+Projeyi bilgisayarınıza klonlamak için terminalde şu komutu çalıştırın:
 
 ```bash
 git clone https://github.com/bahadirverir/CSharp-Essentials.git
