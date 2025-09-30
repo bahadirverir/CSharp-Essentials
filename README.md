@@ -8,7 +8,8 @@ This repository is a beginner-friendly tutorial project that provides hands-on p
 
 A simple and clear starter project for anyone looking to learn C# and essential programming concepts. Through practical examples, users can reinforce their understanding of the key building blocks of the C# language.
 
----
+![Açıklama](https://github.com/bahadirverir/Assets/blob/main/Ekran%20Resmi%202025-09-30%2003.03.43.png)
+
 
 ## 📌 Content and Features
 
