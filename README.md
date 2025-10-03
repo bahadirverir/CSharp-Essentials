@@ -1,44 +1,44 @@
-# 🔷 CSharp-Essentials 
+# 🔷 CSharp-Temelleri 
 
-This repository is a beginner-friendly tutorial project that provides hands-on practice with fundamental C# programming components. The project focuses on core topics such as basic data structures, algorithms, object-oriented programming (OOP), and error handling, aiming to give users a solid introduction to C#.
-
----
-
-## 🚀 Project Overview
-
-A simple and clear starter project for anyone looking to learn C# and essential programming concepts. Through practical examples, users can reinforce their understanding of the key building blocks of the C# language.
-
-![Açıklama](https://github.com/bahadirverir/Assets/blob/main/Ekran%20Resmi%202025-09-30%2003.03.43.png)
-
-
-## 📌 Content and Features
-
-The project covers the following core C# topics::
-
-- ✅ Variables and Data Types – Declaring variables, data types, and type conversions 
-- ✅ Conditional Statements and Loops – `if`, `else`, `switch`, `for`, `while` and other control structures  
-- ✅ Functions and Methods – Writing functions, using parameters, and return values
-- ✅ Object-Oriented Programming (OOP) – Classes, objects, `inheritance`, `polymorphism`, `encapsulation`
-- ✅ Data Structures and Algorithms – `Arrays`, `lists`, basic `sorting` and `searching` algorithms  
-- ✅ Error Handling and Exceptions – Using `try-catch` blocks for exception handling and management 
+Bu repo, C# programlama dili kullanılarak temel programlama bileşenlerinin pratikte uygulandığı, yeni başlayanlara yönelik öğretici bir projeyi içermektedir. Proje; temel veri yapıları, algoritmalar, nesne yönelimli programlama (OOP) ve hata yönetimi gibi konulara odaklanarak, kullanıcıların C#'a sağlam bir giriş yapmalarını amaçlamaktadır.
 
 ---
 
-## 🛠 Setup and Usage
+## 🚀 Proje Özeti
 
-### 1️⃣ Clone the Repository
+C# dilini ve temel programlama kavramlarını öğrenmek isteyenler için sade ve anlaşılır bir başlangıç projesidir. Bu proje sayesinde C# dilinin en önemli yapı taşları pratik örneklerle pekiştirilebilir.
 
-To clone the project to your local machine, run the following command in your terminal:
+![Açıklama](https://github.com/bahadirverir/Assets/blob/main/Ekran%20Resmi%202025-10-03%2014.50.53.png)
+
+
+## 📌 İçerik ve Özellikler
+
+Projede aşağıdaki temel C# konuları ele alınmaktadır:
+
+- ✅ **Değişkenler ve Veri Tipleri** – C#’ta değişken tanımlama, veri türleri ve tip dönüşümleri 
+- ✅ **Koşul İfadeleri ve Döngüler** – `if`, `else`, `switch`, `for`, `while` gibi temel kontrol yapıları  
+- ✅ **Fonksiyonlar ve Metotlar** – Fonksiyon yazımı, parametreler ve geri dönüş değerleri
+- ✅ **Nesne Yönelimli Programlama (OOP)** – `Sınıflar`, `Nesneler`, `Kalıtım`, `Polimorfizm`, `Kapsülleme`
+- ✅ **Veri Yapıları ve Algoritmalar** – `Diziler`, `listeler`, temel algoritmalar  
+- ✅ **Hata Yönetimi ve İstisnalar** – `try-catch blokları` ile hata yakalama ve yönetim teknikleri
+ 
+
+---
+
+## 🛠 Kurulum ve Kullanım
+
+### 1️⃣ Depoyu Klonlayın
+
+Projeyi bilgisayarınıza klonlamak için terminalde şu komutu çalıştırın:
 
 ```bash
 git clone https://github.com/bahadirverir/CSharp-Essentials.git
 ```
 
-## 🧑‍💻 Developer Note
+## 🧑‍💻 Geliştirici Notu
 
-This project was created during the first 1-2 months of my C# learning journey as a personal practice project.  
-The goal was to reinforce fundamental programming concepts and support my learning process.
+Bu proje, C# öğrenmeye başladığım ilk 1-2 ay içerisinde, kendimi geliştirmek için yaptığım çalışmadır. Amaç; temel programlama kavramlarını pekiştirmek ve öğrenme sürecimi desteklemekti.
 
-Although I have since developed more advanced and comprehensive projects, I decided to include this repository on my GitHub profile because it represents an important part of my learning journey and demonstrates my foundational knowledge.
+İlerleyen süreçte çok daha kapsamlı ve ileri seviye projeler geliştirdim. Ancak bu proje, benim öğrenme yolculuğumun önemli bir parçası olduğu ve mesleki bilgiyi kanıtlama noktasında önemli olduğu için GitHub profilimde yer vermeye karar verdim.
 
-💫 I also believe it can serve as a helpful guide for beginner developers.
+💫 Başlangıç seviyesindeki geliştiriciler için'de yol gösterici olabileceğini düşünüyorum.

@@ -7,133 +7,133 @@
       while (true)
       {
         Console.ForegroundColor = ConsoleColor.Cyan;
-        Console.WriteLine("1-) Add Car");
-        Console.WriteLine("2-) Delete Car");
-        Console.WriteLine("3-) Add Motorcycle");
-        Console.WriteLine("4-) Delete Motorcycle");
-        Console.WriteLine("5-) List Cars");
-        Console.WriteLine("6-) List Motorcycles");
-        Console.WriteLine("7-) Exit Program\n");
-        Console.Write("Option >>> ");
-        int option ;
-        
-        try 
+        Console.WriteLine("1-) Araba Ekle");
+        Console.WriteLine("2-) Araba Sil");
+        Console.WriteLine("3-) Motosiklet Ekle");
+        Console.WriteLine("4-) Motosiklet Sil");
+        Console.WriteLine("5-) Arabaları Listele");
+        Console.WriteLine("6-) Motosikletleri Listele");
+        Console.WriteLine("7-) Programdan Çık\n");
+        Console.Write("Seçenek >>> ");
+        int secenek;                
+
+        try
         {
-          option = Convert.ToInt32(Console.ReadLine());
+          secenek = Convert.ToInt32(Console.ReadLine());
         }
         catch (FormatException)
         {
           Console.ForegroundColor = ConsoleColor.Red;
-          Console.Write("\nInvalid input try again.\n");
-          continue ;
+          Console.Write("\nGeçersiz giriş, tekrar deneyin.\n");
+          continue;
         }
 
-        switch (option)
+        switch (secenek)
         {
           case 1:
-          string carBrand = Methods.StringInput("Brand: ");
-          string carSerie = Methods.StringInput("Serie: ");
-          string carModel = Methods.StringInput("Model: ");
-          int carYear = Methods.IntInput("Year: ");
-          string carFuel = Methods.StringInput("Fuel: ");
-          string carTransmission = Methods.StringInput("Transmission: ");
-          int carKilometer = Methods.IntInput("Kilometer: ");
-          string carBodyType = Methods.StringInput("Body type: ");
-          int carHorsePower = Methods.IntInput("Horse power: ");
-          int carEngineSize = Methods.IntInput("Engine size: ");
-          string carDrive = Methods.StringInput("Drive: ");
-          string carColor = Methods.StringInput("Color: ");
-          int carFuelConsumption = Methods.IntInput("Fuel consumption: ");
-          
-          Car car = new Car(carBrand,carSerie,carModel,carYear,carFuel,
-                            carTransmission,carKilometer,carBodyType,carHorsePower,
-                            carEngineSize,carDrive,carColor,carFuelConsumption);
+            string arabaMarka = Metotlar.StringGirdi("Marka: ");
+            string arabaSeri = Metotlar.StringGirdi("Seri: ");
+            string arabaModel = Metotlar.StringGirdi("Model: ");
+            int arabaYil = Metotlar.IntGirdi("Yıl: ");
+            string arabaYakit = Metotlar.StringGirdi("Yakıt: ");
+            string arabaVites = Metotlar.StringGirdi("Vites: ");
+            int arabaKilometre = Metotlar.IntGirdi("Kilometre: ");
+            string arabaKasaTipi = Metotlar.StringGirdi("Kasa tipi: ");
+            int arabaBeygirGucu = Metotlar.IntGirdi("Beygir gücü: ");
+            int arabaMotorHacmi = Metotlar.IntGirdi("Motor hacmi: ");
+            string arabaCekis = Metotlar.StringGirdi("Çekiş: ");
+            string arabaRenk = Metotlar.StringGirdi("Renk: ");
+            int arabaYakitTuketimi = Metotlar.IntGirdi("Yakıt tüketimi: ");
 
-          Methods.AddCar(car);
-          Console.WriteLine("Returning to main menu...");
-          Thread.Sleep(2500);
-          Console.Clear();
-          break;
+            Araba araba = new Araba(arabaMarka, arabaSeri, arabaModel, arabaYil, arabaYakit,
+                  arabaVites, arabaKilometre, arabaKasaTipi, arabaBeygirGucu,
+                  arabaMotorHacmi, arabaCekis, arabaRenk, arabaYakitTuketimi);
 
-          case 2: 
-          Methods.DeleteCar();
-          break;
+            Metotlar.ArabaEkle(araba);
+              Console.WriteLine("Ana menüye dönülüyor...");
+              Thread.Sleep(2500);
+              Console.Clear();
+              break;
 
-          case 3: 
-          string motorcycleBrand = Methods.StringInput("Brand: ");
-          string motorcycleModel = Methods.StringInput("Model: ");
-          string motorcycleType = Methods.StringInput("Type: ");
-          int motorcycleYear = Methods.IntInput("Year: ");
-          string motorcycleFuel = Methods.StringInput("Fuel: ");
-          int motorcycleKilometer = Methods.IntInput("Kilometer: ");
-          int motorcycleEngineSize = Methods.IntInput("Engine size: ");
-          int motorcycleHorsePower = Methods.IntInput("Horse power: ");
-          int motorcycleTimingType = Methods.IntInput("Timing type: ");
-          int motorcycleCyclinderNumber = Methods.IntInput("Cyclinder number: ");
-          string motorcycleTransmission = Methods.StringInput("Transmission: ");
-          string motorcycleColor = Methods.StringInput("Color: ");
-          int motorcycleFuelConsumption = Methods.IntInput("Fuel consumption: ");
-          
-          Motorcycle motorcycle = new Motorcycle(motorcycleBrand,motorcycleModel,motorcycleType,motorcycleYear,motorcycleFuel,
-                                  motorcycleKilometer,motorcycleEngineSize,motorcycleHorsePower,motorcycleTimingType,
-                                  motorcycleCyclinderNumber,motorcycleTransmission,motorcycleColor,motorcycleFuelConsumption);
-          
-          Methods.AddMotorcycle(motorcycle);
-          Console.WriteLine("Returning to main menu...");
-          Thread.Sleep(2500);
-          Console.Clear();
-          break;
+          case 2:
+            Metotlar.ArabaSil();
+              break;
 
-          case 4: 
-            Methods.DeleteMotorcycle();  
-            break;
+          case 3:
+            string motosikletMarka = Metotlar.StringGirdi("Marka: ");
+            string motosikletModel = Metotlar.StringGirdi("Model: ");
+            string motosikletTur = Metotlar.StringGirdi("Tür: ");
+            int motosikletYil = Metotlar.IntGirdi("Yıl: ");
+            string motosikletYakit = Metotlar.StringGirdi("Yakıt: ");
+            int motosikletKilometre = Metotlar.IntGirdi("Kilometre: ");
+            int motosikletMotorHacmi = Metotlar.IntGirdi("Motor hacmi: ");
+            int motosikletBeygirGucu = Metotlar.IntGirdi("Beygir gücü: ");
+            int motosikletZamanlamaTipi = Metotlar.IntGirdi("Zamanlama tipi: ");
+            int motosikletSilindirSayisi = Metotlar.IntGirdi("Silindir sayısı: ");
+            string motosikletVites = Metotlar.StringGirdi("Vites: ");
+            string motosikletRenk = Metotlar.StringGirdi("Renk: ");
+            int motosikletYakitTuketimi = Metotlar.IntGirdi("Yakıt tüketimi: ");
 
-          case 5: 
-            Methods.ListCars();
-            break;
+            Motosiklet motosiklet = new Motosiklet(motosikletMarka, motosikletModel, motosikletTur, motosikletYil, motosikletYakit,
+                  motosikletKilometre, motosikletMotorHacmi, motosikletBeygirGucu, motosikletZamanlamaTipi,
+                  motosikletSilindirSayisi, motosikletVites, motosikletRenk, motosikletYakitTuketimi);
 
-          case 6: 
-            Methods.ListMotorcycles();
-            break;
+            Metotlar.MotosikletEkle(motosiklet);
+              Console.WriteLine("Ana menüye dönülüyor...");
+              Thread.Sleep(2500);
+              Console.Clear();
+              break;
+
+          case 4:
+            Metotlar.MotosikletSil();
+              break;
+
+          case 5:
+            Metotlar.ArabalariListele();
+              break;
+
+          case 6:
+            Metotlar.MotosikletleriListele();
+              break;
 
           case 7:
-            Console.WriteLine("Program succesfully closed.");
+            Console.WriteLine("Program başarıyla kapatıldı.");
             return;
 
-          default: 
+          default:
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("\nInvalid input try again.");
-            while (true) 
+            Console.WriteLine("\nGeçersiz giriş, tekrar deneyin.");
+            while (true)
             {
-              Console.WriteLine("1-) Return to main menu.");
-              Console.WriteLine("2-) Exit program.");
-              Console.Write("\nOption >>  ");
-              
+              Console.WriteLine("1-) Ana menüye dön.");
+              Console.WriteLine("2-) Programdan çık.");
+              Console.Write("\nSeçenek >>  ");
+
               try
               {
-                int choice = Convert.ToInt32(Console.ReadLine());
-                if (choice == 1)
+                int secim = Convert.ToInt32(Console.ReadLine());
+                if (secim == 1)
                 {
-                  Console.WriteLine("Returning to main menu...");
+                  Console.WriteLine("Ana menüye dönülüyor...");
                   Thread.Sleep(2000);
                   Console.Clear();
                   break;
                 }
-                else if (choice == 2)
+                else if (secim == 2)
                 {
-                  Console.WriteLine("Program succesfully closed.");
+                  Console.WriteLine("Program başarıyla kapatıldı.");
                   return;
                 }
                 else
                 {
-                  Console.WriteLine("Invalid input try again.");
-                }
-                }
-                catch (FormatException) 
-                {
-                  Console.WriteLine("Invalid input try again.");
+                  Console.WriteLine("Geçersiz giriş, tekrar deneyin.");
                 }
               }
+              catch (FormatException)
+              {
+                Console.WriteLine("Geçersiz giriş, tekrar deneyin.");
+              }
+            }
           break;
         }
       }

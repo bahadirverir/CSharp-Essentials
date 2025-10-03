@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Bahadr/Desktop/C#_OOP_PROJECT/Project/Project.csproj": {}
+    "/Users/Bahadr/Desktop/CSharp-Essentials/Project/Project.csproj": {}
   },
   "projects": {
-    "/Users/Bahadr/Desktop/C#_OOP_PROJECT/Project/Project.csproj": {
+    "/Users/Bahadr/Desktop/CSharp-Essentials/Project/Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Bahadr/Desktop/C#_OOP_PROJECT/Project/Project.csproj",
+        "projectUniqueName": "/Users/Bahadr/Desktop/CSharp-Essentials/Project/Project.csproj",
         "projectName": "Project",
-        "projectPath": "/Users/Bahadr/Desktop/C#_OOP_PROJECT/Project/Project.csproj",
+        "projectPath": "/Users/Bahadr/Desktop/CSharp-Essentials/Project/Project.csproj",
         "packagesPath": "/Users/Bahadr/.nuget/packages/",
-        "outputPath": "/Users/Bahadr/Desktop/C#_OOP_PROJECT/Project/obj/",
+        "outputPath": "/Users/Bahadr/Desktop/CSharp-Essentials/Project/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/Bahadr/.nuget/NuGet/NuGet.Config"
